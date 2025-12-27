@@ -3,7 +3,7 @@ import { api } from "../../api/Axios";
 import { useAuth } from "../../Authentication/AuthContext";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
-import "./FeedBack.css"
+import "./Feedback.css"
 
 const Feedback = ({setShowLogin}) => {
   const navigate=useNavigate()
